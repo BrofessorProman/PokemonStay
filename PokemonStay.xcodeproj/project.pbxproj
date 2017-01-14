@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CE670641E29EA3E00A45398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE670631E29EA3E00A45398 /* AppDelegate.swift */; };
+		7CE670661E29EA3E00A45398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE670651E29EA3E00A45398 /* ViewController.swift */; };
+		7CE670691E29EA3F00A45398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE670671E29EA3F00A45398 /* Main.storyboard */; };
+		7CE6706C1E29EA3F00A45398 /* PokemonStay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6706A1E29EA3F00A45398 /* PokemonStay.xcdatamodeld */; };
+		7CE6706E1E29EA3F00A45398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE6706D1E29EA3F00A45398 /* Assets.xcassets */; };
+		7CE670711E29EA3F00A45398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE6706F1E29EA3F00A45398 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CE670601E29EA3E00A45398 /* PokemonStay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonStay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE670631E29EA3E00A45398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CE670651E29EA3E00A45398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CE670681E29EA3F00A45398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CE6706B1E29EA3F00A45398 /* PokemonStay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PokemonStay.xcdatamodel; sourceTree = "<group>"; };
+		7CE6706D1E29EA3F00A45398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE670701E29EA3F00A45398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CE670721E29EA3F00A45398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CE6705D1E29EA3700A45398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CE670571E29EA3700A45398 = {
+			isa = PBXGroup;
+			children = (
+				7CE670621E29EA3E00A45398 /* PokemonStay */,
+				7CE670611E29EA3E00A45398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CE670611E29EA3E00A45398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CE670601E29EA3E00A45398 /* PokemonStay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE670621E29EA3E00A45398 /* PokemonStay */ = {
+			isa = PBXGroup;
+			children = (
+				7CE670631E29EA3E00A45398 /* AppDelegate.swift */,
+				7CE670651E29EA3E00A45398 /* ViewController.swift */,
+				7CE670671E29EA3F00A45398 /* Main.storyboard */,
+				7CE6706D1E29EA3F00A45398 /* Assets.xcassets */,
+				7CE6706F1E29EA3F00A45398 /* LaunchScreen.storyboard */,
+				7CE670721E29EA3F00A45398 /* Info.plist */,
+				7CE6706A1E29EA3F00A45398 /* PokemonStay.xcdatamodeld */,
+			);
+			path = PokemonStay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CE6705F1E29EA3700A45398 /* PokemonStay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE670751E29EA3F00A45398 /* Build configuration list for PBXNativeTarget "PokemonStay" */;
+			buildPhases = (
+				7CE6705C1E29EA3700A45398 /* Sources */,
+				7CE6705D1E29EA3700A45398 /* Frameworks */,
+				7CE6705E1E29EA3700A45398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonStay;
+			productName = PokemonStay;
+			productReference = 7CE670601E29EA3E00A45398 /* PokemonStay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CE670581E29EA3700A45398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Colton Boeckman";
+				TargetAttributes = {
+					7CE6705F1E29EA3700A45398 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 24T6VD8W35;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CE6705B1E29EA3700A45398 /* Build configuration list for PBXProject "PokemonStay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CE670571E29EA3700A45398;
+			productRefGroup = 7CE670611E29EA3E00A45398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CE6705F1E29EA3700A45398 /* PokemonStay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CE6705E1E29EA3700A45398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE670711E29EA3F00A45398 /* LaunchScreen.storyboard in Resources */,
+				7CE6706E1E29EA3F00A45398 /* Assets.xcassets in Resources */,
+				7CE670691E29EA3F00A45398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CE6705C1E29EA3700A45398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE670661E29EA3E00A45398 /* ViewController.swift in Sources */,
+				7CE670641E29EA3E00A45398 /* AppDelegate.swift in Sources */,
+				7CE6706C1E29EA3F00A45398 /* PokemonStay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CE670671E29EA3F00A45398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE670681E29EA3F00A45398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CE6706F1E29EA3F00A45398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE670701E29EA3F00A45398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CE670731E29EA3F00A45398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CE670741E29EA3F00A45398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CE670761E29EA3F00A45398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24T6VD8W35;
+				INFOPLIST_FILE = PokemonStay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sensational-Touch.PokemonStay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CE670771E29EA3F00A45398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24T6VD8W35;
+				INFOPLIST_FILE = PokemonStay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sensational-Touch.PokemonStay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CE6705B1E29EA3700A45398 /* Build configuration list for PBXProject "PokemonStay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE670731E29EA3F00A45398 /* Debug */,
+				7CE670741E29EA3F00A45398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE670751E29EA3F00A45398 /* Build configuration list for PBXNativeTarget "PokemonStay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE670761E29EA3F00A45398 /* Debug */,
+				7CE670771E29EA3F00A45398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CE6706A1E29EA3F00A45398 /* PokemonStay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CE6706B1E29EA3F00A45398 /* PokemonStay.xcdatamodel */,
+			);
+			currentVersion = 7CE6706B1E29EA3F00A45398 /* PokemonStay.xcdatamodel */;
+			path = PokemonStay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CE670581E29EA3700A45398 /* Project object */;
+}
